@@ -1,4 +1,5 @@
 public class Main {
+
     public int calculate(int income, int expenses) {
         int count = 0; // счётчик месяцев отдыха
         int money = 0; // количество денег на счету
@@ -12,5 +13,4 @@ public class Main {
         }
         return count;
     }
-
 }

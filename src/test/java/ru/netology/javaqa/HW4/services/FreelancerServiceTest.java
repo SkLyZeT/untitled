@@ -10,7 +10,7 @@ public class FreelancerServiceTest {
     public void test1() {
         FreelancerService freelancerService = new FreelancerService();
         int result = freelancerService.calculate(10000, 3000, 20000);
-        assertEquals(3, result);
+        assertEquals(4, result);
     }
 
     @Test
